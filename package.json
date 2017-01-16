@@ -1,7 +1,7 @@
 {
-  "name": "angular-quickstart",
+  "name": "ang2-simple",
   "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "description": "Angular 2 Simple App",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "e2e": "tsc && concurrently \"http-server -s\" \"protractor protractor.config.js\" --kill-others --success first",
@@ -14,7 +14,7 @@
     "tsc:w": "tsc -w"
   },
   "keywords": [],
-  "author": "",
+  "author": "Denys Markov",
   "license": "MIT",
   "dependencies": {
     "@angular/common": "~2.3.0",
