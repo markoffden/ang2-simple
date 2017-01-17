@@ -4,9 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent }  from './app.component';
 import { NavbarComponent }  from './components/navbar/navbar.component';
 import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
-import { HomeComponent } from './components/pages/home.component';
-import { AboutComponent } from './components/pages/about.component';
+import { HomeComponent } from './components/routes/home.component';
+import { AboutComponent } from './components/routes/about.component';
 import { routing } from './app.routing';
+import { GithubSearchComponent } from './components/routes/github-search.component';
 
 @NgModule({
   imports:      [ BrowserModule, routing ],
@@ -15,7 +16,8 @@ import { routing } from './app.routing';
       NavbarComponent,
       JumbotronComponent,
       HomeComponent,
-      AboutComponent
+      AboutComponent,
+      GithubSearchComponent
   ],
   bootstrap:    [ AppComponent ]
 })

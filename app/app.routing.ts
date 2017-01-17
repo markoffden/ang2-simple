@@ -1,8 +1,9 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { HomeComponent } from './components/pages/home.component';
-import { AboutComponent } from './components/pages/about.component';
+import { HomeComponent } from './components/routes/home.component';
+import { AboutComponent } from './components/routes/about.component';
+import { GithubSearchComponent } from './components/routes/github-search.component';
 
 const appRoutes: Routes = [
     {
@@ -12,6 +13,10 @@ const appRoutes: Routes = [
     {
         path: 'about',
         component: AboutComponent
+    },
+    {
+        path: 'github-search',
+        component: GithubSearchComponent
     }
 ];
 
